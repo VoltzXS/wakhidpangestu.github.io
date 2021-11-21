@@ -407,6 +407,27 @@ a.btn:active {
   transform: translateY(0px);
 }
 
+.btn-kirim {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: #03ddff;
+  color: #fff;
+  border-radius: 0.5rem;
+  border: 2px solid #03ddff;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 300ms ease-in-out;
+}
+
+.btn-kirim:hover {
+  transform: translateY(-3px);
+  background-color: transparent;
+  color: inherit;
+}
+
+.btn-kirim:active {
+  transform: translateY(0px);
+}
+
 @media only screen and (max-width: 996px) {
   .right h1 {
     font-size: 2rem;
@@ -646,7 +667,7 @@ a.btn:active {
   margin-bottom: 1rem;
 }
 
-.form wakhid-contact-portfolio-form,
+.form input,
 .form textarea {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
@@ -745,7 +766,7 @@ a.btn:active {
   text-transform: none;
 }
 
-.btn {
+.btn-subscribe {
   margin-top: 1rem;
   margin-left: 1.5rem;
   display: inline-block;
