@@ -337,8 +337,7 @@
           </div>
         </div>
         <div class="right" data-aos="fade-up-left" data-aos-duration="2000">
-
-          <form name="wakhid-contact-portfolio-form">
+          <form class="form">
             <h2>Message me</h2>
             <div>
               <input type="text" placeholder="Name" name="nama" />
@@ -348,14 +347,10 @@
             <textarea
               cols="10"
               rows="10"
-              placeholder="Describe Project" name="deskipsi projek"
+              placeholder="Describe Project" name="deskripsi projek"
             ></textarea>
 
-            <button type="submit" class="btn btn-primary btn-kirim">Send message</button>
-            <button class="btn btn-primary btn-loading d-none" type="button" disabled>
-              <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-              Loading...
-            </button>
+            <button type="submit" class="btn btn-kirim"><b>Send message</b></button>
           </form>
         </div>
       </div>
@@ -406,7 +401,7 @@
           <p>Subscribe for Latest Updates</p>
           <form action="">
               <input type="email" name="" class="email" placeholder="Enter Your Email" id="">
-              <input type="submit" value="subscribe" class="btn">
+              <input type="submit" value="subscribe" class="btn btn-subscribe">
           </form>
       </div>
 
@@ -431,7 +426,7 @@
 
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbwPMuQDsIJExFYmnMzJMYBka0m1eQE8Hw8Dp4_DmzLPbh4_eLgSgvUV7I3F-Er4RueW3Q/exec'
-      const form = document.forms['wakhid-contact-portfolio-form'];
+      const form = document.forms['form'];
     
       form.addEventListener('submit', e => {
         e.preventDefault()
